@@ -1,12 +1,13 @@
 import { BiHappyHeartEyes } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr";
 import { MdAssuredWorkload, MdMoreTime } from "react-icons/md";
+import './style.css'
 
 const WorkCart = () => {
   return (
     <div className="stats w-full mx-auto ml-40 m-10 flex  stats-vertical lg:stats-horizontal shadow">
       <div className="mt-5 p-3">
-        <div className="stat flex bg-red-200 ">
+        <div className="stat flex bg-red-200 hover:-translate-y-4 translate-all duration-300 skyCard">
           <div className="mt-20 m-5 text-3xl ">
             <GrProjects></GrProjects>
           </div>
@@ -20,7 +21,7 @@ const WorkCart = () => {
         </div>
         <br />
 
-        <div className="stat flex bg-red-200 ">
+        <div className="stat flex bg-red-200 hover:-translate-y-4 translate-all duration-300 skyCard ">
           <div className="mt-20 m-5 text-3xl">
             <MdMoreTime></MdMoreTime>
           </div>
@@ -36,7 +37,7 @@ const WorkCart = () => {
 
       {/* second */}
       <div className="mt-5 p-3">
-        <div className="stat flex bg-red-200">
+        <div className="stat flex bg-red-200 hover:-translate-y-4 translate-all duration-300 skyCard">
           <div className="mt-20 m-5 text-3xl">
             <BiHappyHeartEyes></BiHappyHeartEyes>
           </div>
@@ -49,7 +50,7 @@ const WorkCart = () => {
           </div>
         </div>
         <br />
-        <div className="stat flex bg-red-200">
+        <div className="stat flex bg-red-200 hover:-translate-y-4 translate-all duration-300 skyCard">
           <div className="mt-20 m-5 text-3xl">
             <MdAssuredWorkload></MdAssuredWorkload>
           </div>

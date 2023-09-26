@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
+  const cvUrl = 'https://drive.google.com/file/d/1p1GzjcNq87ZkAPM9Q_3bJV5MKksqjkyc/view?usp=sharing.pdf';
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Arfin_Resume.pdf'; // You can customize the downloaded file name
+    link.click();
+  };
+
 
   const navOptions = (
     <>
@@ -44,13 +53,15 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost uppercase  text-xl">Developer Portfolio</a>
+           <a className="btn btn-ghost uppercase  text-xl">
+            Developer Portfolio</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-           <a className="btn">Download Resume</a>
+           <a className="btn" onClick={handleDownload}>Download Resume</a>
+           
         </div>
       </div>
     </>
