@@ -1,14 +1,17 @@
+import { Helmet } from "react-helmet";
 import TitleSection from "../SubShare/TitleSection/TitleSection";
 import {
   FaEnvelope, FaFacebookSquare, FaGithub, FaInfoCircle, FaLinkedin, FaPaperPlane,FaPhone, FaUser} from "react-icons/fa";
 
 const Contract = () => {
-/* const { handleSubmit } = useForm();
-  const onSubmit = () => {
-  } 
-   onSubmit={handleSubmit(onSubmit)} */
+
+  const year = new Date().getFullYear();
+
   return (
     <div className="w-full ml-10">
+      <Helmet>
+        <title>Home- Arfin Portfolio</title>
+      </Helmet>
       <TitleSection
         heading="Contract"
         subHeading="Feel Free to contract with me "
@@ -70,13 +73,6 @@ const Contract = () => {
               className="file-input file-input-bordered w-full"
             />
           </div>
-          {/* <input
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
-          type="submit"
-          value="Send Me"
-        />
-      <FaPaperPlane className="text-xl" /> */}
-
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer flex items-center">
             <span className="mr-5 mb-2 mt-1 ml-2 text-xl">Send Me</span>
             <FaPaperPlane className="text-xl" />{" "}
@@ -132,6 +128,11 @@ const Contract = () => {
           </div>
         </div>
       </div>
+      <footer className="footer footer-center p-4  bg-sky-200 text-base-content">
+        <div>
+          <p>Copyright © {year} - All right Engr S Arfin</p>
+        </div>
+      </footer>
     </div>
   );
 };

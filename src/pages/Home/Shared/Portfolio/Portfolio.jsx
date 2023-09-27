@@ -1,16 +1,13 @@
-//import PhotoGallery from "../SubShare/PhotoGallery/PhotoGallery";
-import TitleSection from "../SubShare/TitleSection/TitleSection";
+import { Helmet } from "react-helmet";
+import PortfolioProject from "../SubShare/PortfolioProject/PortfolioProject";
 
 const Portfolio = () => {
   return (
     <div>
-      <TitleSection
-        heading="Portfolio"
-        subHeading="Welcome to my portfolio"
-      ></TitleSection>
-
-{/*       <PhotoGallery></PhotoGallery>
- */}      
+      <Helmet>
+        <title>Portfolio- Arfin Portfolio</title>
+      </Helmet>
+      <PortfolioProject></PortfolioProject>
     </div>
   );
 };

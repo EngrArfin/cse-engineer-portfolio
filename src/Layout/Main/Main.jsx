@@ -1,15 +1,18 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../../pages/Home/Shared/NavBar/NavBar";
-import Footer from "../../pages/Home/Shared/Footer/Footer";
+import { Helmet } from "react-helmet";
 
 const Main = () => {
-    return (
-        <div>
-            <NavBar></NavBar>
-            <Outlet></Outlet>
+  return (
+    <div>
+      <Helmet>
+        <title>Home - Arfin Portfolio</title>
+      </Helmet>
 
-        </div>
-    );
+      <NavBar></NavBar>
+      <Outlet></Outlet>
+    </div>
+  );
 };
 
 export default Main;
