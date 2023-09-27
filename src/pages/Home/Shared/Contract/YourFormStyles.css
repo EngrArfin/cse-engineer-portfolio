@@ -1,0 +1,29 @@
+/* YourFormStyles.css */
+
+/* Style the form container */
+.colorful-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style input fields */
+.input {
+  background-color: #ffffff;
+  border-color: #007bff; /* Blue border color */
+}
+
+/* Style the submit button */
+.btn {
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add hover effect to the submit button */
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

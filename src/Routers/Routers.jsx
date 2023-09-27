@@ -3,7 +3,6 @@ import Main from "../Layout/Main/Main";
 import Home from "../pages/Home/Home/Home";
 import About from "../pages/Home/Shared/About/About";
 import Portfolio from "../pages/Home/Shared/Portfolio/Portfolio";
-import Development from "../pages/Home/Shared/Development/Development";
 import Contract from "../pages/Home/Shared/Contract/Contract";
 
 
@@ -23,10 +22,6 @@ export const router = createBrowserRouter([
           {
             path: 'portfolio',
             element: <Portfolio></Portfolio>
-          },
-          {
-            path: '/development',
-            element: <Development></Development>
           },
           {
             path: '/contract',
