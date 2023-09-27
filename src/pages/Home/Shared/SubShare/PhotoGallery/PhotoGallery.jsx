@@ -1,11 +1,16 @@
-
+/* 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import Certificate from "../../../../../assets/Photo/certificate1.jpg"
+import Certificate1 from "../../../../../assets/Photo/certificate1.jpg"
+import Certificate2 from "../../../../../assets/Photo/certificate2.jpg"
+import Certificate3 from "../../../../../assets/Photo/certificate3.jpg"
+import Certificate4 from "../../../../../assets/Photo/certificate4.jpg"
+import Certificate5 from "../../../../../assets/Photo/certificate5.jpg"
+import Certificate6 from "../../../../../assets/Photo/certificate6.jpg" 
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
@@ -29,13 +34,12 @@ const PhotoGallery = () => {
         className="mySwiper"
       >
         
-        <SwiperSlide className='p-15'> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
-        <SwiperSlide> <img src={Certificate} alt="" /></SwiperSlide>
+         <SwiperSlide> <img src={Certificate1} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={Certificate2} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={Certificate3} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={Certificate4} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={Certificate5} alt="" /></SwiperSlide>
+        <SwiperSlide> <img src={Certificate6} alt="" /></SwiperSlide>
         
       </Swiper>
             
@@ -44,4 +48,4 @@ const PhotoGallery = () => {
     );
 };
 
-export default PhotoGallery;
+export default PhotoGallery; */

@@ -3,6 +3,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import Projectphoto1 from "../../../../../assets/Photo/Projectphoto1.jpg"
+import Projectphoto2 from "../../../../../assets/Photo/Projectphoto2.jpg"
+import Projectphoto3 from "../../../../../assets/Photo/Projectphoto3.jpg"
+import Projectphoto4 from "../../../../../assets/Photo/Projectphoto4.jpg"
+import Projectphoto5 from "../../../../../assets/Photo/Projectphoto5.jpg"
+import Projectphoto6 from "../../../../../assets/Photo/Projectphoto6.jpg"
 
 
 import { Pagination } from "swiper/modules";
@@ -11,9 +17,9 @@ const CustomerReview = () => {
   return (
     <div>
         <SmallTitle smallHeading=" CUSTOMER REVIEW"></SmallTitle>
-      <Swiper
+      <Swiper  
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={5}
         pagination={{
           clickable: true,
         }}
@@ -23,7 +29,7 @@ const CustomerReview = () => {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 40,
           },
           1024: {
@@ -32,17 +38,15 @@ const CustomerReview = () => {
           },
         }}
         modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        className="mySwiper "
+      >        
+        <SwiperSlide> <img src={Projectphoto1} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={Projectphoto2} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={Projectphoto3} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={Projectphoto4} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={Projectphoto5} alt="" /> </SwiperSlide>
+        <SwiperSlide> <img src={Projectphoto6} alt="" /> </SwiperSlide>
+        
       </Swiper>
     </div>
   );

@@ -1,0 +1,8 @@
+/* style.css */
+.skyCard {
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; /* Make the card fill the entire width */
+  }
+  

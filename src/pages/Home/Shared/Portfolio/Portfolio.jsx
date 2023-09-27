@@ -1,4 +1,4 @@
-import PhotoGallery from "../SubShare/PhotoGallery/PhotoGallery";
+//import PhotoGallery from "../SubShare/PhotoGallery/PhotoGallery";
 import TitleSection from "../SubShare/TitleSection/TitleSection";
 
 const Portfolio = () => {
@@ -9,8 +9,8 @@ const Portfolio = () => {
         subHeading="Welcome to my portfolio"
       ></TitleSection>
 
-      <PhotoGallery></PhotoGallery>
-      
+{/*       <PhotoGallery></PhotoGallery>
+ */}      
     </div>
   );
 };
