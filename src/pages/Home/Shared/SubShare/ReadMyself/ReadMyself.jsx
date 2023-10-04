@@ -35,54 +35,6 @@ const ReadMyself = () => {
 
       {/* For Portfolio */}
       
-
-
-      {/* <div>
-        Hello, I'm Samsel Arfin Welcome to my portfolio! I'm a highly motivated
-        and versatile web developer based in Bangladesh, specializing in
-        creating exceptional web experiences. With a BSc degree in Computer
-        Science and Engineering from Green University, I've honed my skills and
-        expertise to bring innovative web solutions to life. My Skill Set I have
-        a strong foundation in web technologies, including: Front-End
-        Development: I excel in HTML, CSS, and JavaScript to craft visually
-        appealing and responsive user interfaces. React JS is my go-to framework
-        for building dynamic and interactive web applications. Back-End
-        Development: I'm proficient in Node.js and Express.js for server-side
-        development, allowing me to create robust and scalable back-end
-        solutions. I'm skilled in database management, with experience in
-        Firebase and MongoDB. UI/UX Design: I believe in creating not just
-        functional but beautiful web designs. My background in UI/UX design,
-        coupled with tools like Photoshop, allows me to blend aesthetics with
-        functionality. Frameworks and Libraries: I'm well-versed in using
-        Bootstrap, Tailwind CSS, and the DaisyUI framework to streamline
-        development and enhance user experiences. Authentication and Security: I
-        implement secure user authentication using technologies like JWT (JSON
-        Web Tokens) to safeguard web applications. Additional Skills: My skill
-        set extends to SQL, PHP, and software testing, ensuring that I can
-        tackle various aspects of web development. Projects that Define Me I've
-        undertaken a diverse range of projects, including: Bistro Boss: A
-        restaurant management system that streamlines order processing and
-        enhances customer experience. Learning Platform: An e-learning portal
-        that provides interactive courses and assessments for knowledge seekers.
-        Kid Toy Shop: An e-commerce platform dedicated to making toy shopping a
-        delightful experience for parents and children. Career Hub: A job search
-        platform that connects job seekers with prospective employers. Ai
-        Affiliate Bot: My university project, an innovative AI-powered bot
-        designed to assist in online income generation. A Commitment to Growth
-        While I may be considered a fresher, I have a relentless commitment to
-        learning and self-improvement. Every day, I strive to expand my skill
-        set and stay abreast of the latest industry trends and emerging
-        technologies. My journey as a web developer is marked by continuous
-        growth and a drive to deliver exceptional results. Let's Collaborate!
-        I'm always excited to take on new challenges and collaborate on exciting
-        projects. If you're looking for a dedicated web developer who combines
-        technical expertise with a passion for design, feel free to reach out.
-        Together, we can turn your ideas into innovative web solutions. Thank
-        you for visiting my portfolio, and I look forward to connecting with
-        you! Feel free to customize and expand upon this description to best
-        represent your unique skills, experiences, and aspirations as a web
-        developer on your portfolio website.
-      </div> */}
     </div>
   );
 };

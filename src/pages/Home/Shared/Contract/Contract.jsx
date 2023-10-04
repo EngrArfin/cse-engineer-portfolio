@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import TitleSection from "../SubShare/TitleSection/TitleSection";
 import {
   FaEnvelope, FaFacebookSquare, FaGithub, FaInfoCircle, FaLinkedin, FaPaperPlane,FaPhone, FaUser} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Contract = () => {
 
@@ -73,11 +74,11 @@ const Contract = () => {
               className="file-input file-input-bordered w-full"
             />
           </div>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer flex items-center">
-            <span className="mr-5 mb-2 mt-1 ml-2 text-xl">Send Me</span>
+          <Link className="btn btn-outline border-1 border-b-4 mt-4">
+            <span className="mr-5 mt-1 text-xl">Send Me</span>
             <FaPaperPlane className="text-xl" />{" "}
             {/* Render the paper plane icon */}
-          </button>
+          </Link>
         </form>
 
         <div className="mx-auto p-4 bg-purple-500 text-white rounded-lg shadow-md hover:bg-pink-500 hover:text-black">

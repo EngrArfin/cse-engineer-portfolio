@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const cvUrl = 'https://drive.google.com/file/d/1p1GzjcNq87ZkAPM9Q_3bJV5MKksqjkyc/view?usp=sharing.pdf';
+  const cvUrl = 'https://drive.google.com/file/d/1qWJQHLDH9L4GprgwaZQyam3ZGa8wHlSw/view?usp=sharing';
 
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -27,7 +27,7 @@ const NavBar = () => {
   ); 
   return (
     <>
-      <div className="navbar max-w-7xl mx-auto  z-10 bg-opacity-30 bg-black text-white"> {/* max-w-7xl */}
+      <div className="navbar max-w-7xl mx-auto  z-10 bg-sky-400  text-white"> {/* max-w-7xl */}
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,8 +59,8 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
-        <div className="navbar-end">
-           <a className="btn" onClick={handleDownload}>Download Resume</a>
+        <div className="navbar-end ">
+           <a className="btn btn-outline  border-2 border-b-4 mt-" onClick={handleDownload}>Download Resume</a>
            
         </div>
       </div>
